@@ -1,33 +1,60 @@
 body{
-	background-image:url("../pics/RLJJ7880.jpg");
+	background-image:url("../pics/QINY7475.png");
 }
 
 .homenav{
-	width:80%;
+	width:90%;
 	text-align:center;
 	position:relative;
+	top:180%;
+	z-index:1;
+	outline: 1px solid black;
+	outline-color: hsla(1, 1%, 1%, 0.3);
 
 	//@media screen and (min-width: 40em){
 		
 	//}
 }
 
-.homenav:hover{
-
+#logo{
+	margin-top:2rem;
+	width:50%;
 }
+
 .dailypic{
-	//filter:blur(2px)
+	filter:blur(2px);
+	transition:all .4s;
+	z-index:3;
 }
-
 
 .dailypic:hover{
-	filter:blur(2px);
-	transition-duration:1.0s;
+	filter:blur(0px);
+	transform: scale(110%);
+
 	}
+
 .daily{
 	position:absolute;
 	top: 50%;
   	left: 50%;
   	transform: translate(-50%, -50%);
   	color:white;
+  	z-index:10;
 }
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+    padding: 0;
+    color: #ccc;
+    font-size: 3em;
+    overflow: hidden;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
