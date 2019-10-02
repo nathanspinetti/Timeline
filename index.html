@@ -7,66 +7,107 @@
     <title>buongiorno</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css">
   </head>
 
-  <header>
-    <div class="grid-container">
-      <div class="grid-x justgrape">
-        <div class="medium-1 medium-offset-8 small-12 cell">
-          <a href="#"><img src="../Timeline/pics/justgrape.svg" alt="Grape"></a>
+
+  <body>
+    
+    <div id="fullpage">
+
+    <div class=" section active notvertical" id="section0">
+      <div class="grid-container">
+        <header>
+         <div class="grid-x justgrape">
+          <div class="medium-1 medium-offset-8 small-12 cell">
+            <a href="#"><img src="../Timeline/pics/justgrape.svg" alt="Grape"></a>
+          </div>
         </div>
-      </div>
-        <div class="grid-x logo"></div>
-        <div class="medium-6 small-12 cell">
+        <div class="grid-x logo">
+         <div class="medium-6 small-12 cell">
           <a href="#"><img id="logo" src="../Timeline/pics/logonogrape.svg" alt="Logo"></a>
         </div>
       </div>
       <div class="grid-x">
-        <div class="medium-6 small-12 medium-offset-3 sub cell">
+        <div class="medium-6 small-12 medium-offset-2 sub cell">
           <h1>...an Italian Adventure</h1>
         </div>
       </div>
-    </div>
     </header>
-  <body>
-    <div class="grid-container">
-      <div class="grid-x">
-        <div class="medium-3 small-12 cell">
-          <div class="homenav">
-            <div class="daily tour"><h2 class="effect-1" data-text="Daily">Daily</h2></div>
-            <div class="dailypic"><a href="#"><img src="../Timeline/pics/DSC03776.JPG" alt="Daily"></a></div>
-          </div>
-        </div>
-        <div class="medium-3 small-12 cell">
-          <div class="homenav">
-            <!-- <img src="../Timeline/pics/time"> -->
-            <div class="daily tour"><h2 class="effect-1" data-text="Tours">Tours</h2></div>
-            <div class="dailypic"><a href="#"><img src="../Timeline/pics/DSC03883.JPG" alt="Tours"></a></div>
-          </div>
-        </div>
-        <div class="medium-3 small-12 cell">
-          <div class="homenav">
-            <div class="daily tour"><h2 class="effect-1" data-text="Cities">Cities</h2></div>
-            <div class="dailypic"><a href="#"><img src="../Timeline/pics/DSC03875.JPG" alt="Cities"></a></div>
-          </div>
-        </div>
-        <div class="medium-3 small-12 cell">
-          <div class="homenav">
-            <div class="daily tour"><h2 class="effect-1" data-text="Food">Food</h2></div>
-            <div class="dailypic"><a href=""><img src="../Timeline/pics/DSC03973.JPG" alt="Food"></a></div>
-          </div>
-        </div>
+  </div>
 
+
+
+    <div class="grid-container">
+    <div class="grid-x">
+    <div class="large-3 medium-6 small-12 cell">
+    <div class="homenav">
+            <a href="#">
+    <div class="daily tour"><h2 class="effect-1" data-text="Rome">Rome</h2>
+      </div>
+    <div class="dailypic"><img src="../Timeline/pics/DSC03776.JPG" alt="Daily">
+      </div>
+          </a>
+      </div>
+      </div>
+    <div class="large-3 medium-6 small-12 cell">
+    <div class="homenav">
+            <a href="#">
+    <div class="daily tour"><h2 class="effect-1" data-text="Florence">Florence</h2>
+      </div>
+    <div class="dailypic"><img src="../Timeline/pics/DSC03883.JPG" alt="Tours">
+      </div>
+            </a>
+      </div>
+      </div>
+    <div class="large-3 medium-6 small-12 cell">
+    <div class="homenav">
+            <a href="#">
+    <div class="daily tour"><h2 class="effect-1" data-text="Naples">Naples</h2>
+      </div>
+    <div class="dailypic"><img src="../Timeline/pics/DSC03875.JPG" alt="Naples">
+      </div>
+          </a>
+      </div>
+      </div>
+    <div class="large-3 medium-6 small-12 cell">
+    <div class="homenav">
+            <a href="#">
+    <div class="daily tour"><h2 class="effect-1" data-text="Amalfi">Amalfi</h2>
+      </div>
+    <div class="dailypic"><img src="../Timeline/pics/DSC03973.JPG" alt="Food">
+      </div>
+          </a>
+      </div>
+      </div>
+      </div>
       </div>
     </div>
 
-          
+    <div class="section" id="section1">
+        <h2>July 8th, 2019</h2>
+        <h3>Landing at Fiumicino Airport</h3>
+        <h4>Day 1 - 11:46am </h4>
+        <p>After landing, we had to search for our driver at the crowded pickup area. After waiting about 20 minutes, he showed up, a short Italian man that spoke pretty decent English. He would be our driver for a few other days as well. He felt like a tour guide himself with all the information he was giving on our descent to Rome. History was flowing through the area way before we even got to the city borders with aqueducts and other strucutres.</p>
 
-      
+        <h3>Arriving in Roma</h3>
+        <h4>Day 1 - 1:02pm</h4>
+        <p></p>
+
+
+
+      </div>
+      </div>   
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
+    <script type="text/javascript" src="js/fullpage.js"></script>
+<script type="text/javascript">
+  var myFullpage = new fullpage('#fullpage', {
+    // sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff']
+  });
+</script>
   </body>
 </html>
