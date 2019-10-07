@@ -1,4 +1,6 @@
-
+.section0{
+	z-index:99;
+}
 
 .homenav{
 	width:90%;
@@ -8,9 +10,22 @@
 	z-index:1;
 }
 
+.sidenav ul{
+	position:absolute;
+	right:5rem;
+	top:50%;
+	transform:translateY(-50%);
+	z-index:100;
+	list-style:none;
+	color:none;
+	font-size:1.5rem;
+}
+
 @media screen and (min-width: 40em){
-		body{
+		.section0{
 	background-image:url("../pics/QINY7475.png");
+	position:absolute;
+	z-index:99;
 }
 
 	}

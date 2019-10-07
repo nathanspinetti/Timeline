@@ -1,0 +1,135 @@
+body {
+  font-family: 'Poppins', sans-serif; }
+
+h1, h2, h3, h4 {
+  font-family: 'Righteous', sans-serif; }
+
+.sub {
+  position: absolute;
+  top: 35%;
+  opacity: 0;
+  z-index: 20;
+  animation-name: fade;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  transform: translateY(-100%); }
+
+@keyframes fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+.justgrape {
+  position: relative;
+  left: 11.1%;
+  z-index: 20;
+  width: 25%;
+  animation-name: slidedown;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  transform: translateY(-100%); }
+
+@keyframes slidedown {
+  0% {
+    transform: translateY(-100%); }
+  100% {
+    transform: translateY(160%); } }
+h2 a {
+  text-decoration: none; }
+
+h2.effect-1 {
+  opacity: .8;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s; }
+  h2.effect-1:before {
+    opacity: 1;
+    top: 0;
+    left: 0;
+    width: 0;
+    color: #ffffff;
+    overflow: hidden;
+    position: absolute;
+    content: attr(data-text);
+    transition: all 0.3s; }
+  h2.effect-1:hover {
+    transition: all 0.3s;
+    opacity: 1; }
+    h2.effect-1:hover:before {
+      width: 100%; }
+
+.background1 {
+  background-color: #D8B4E2; }
+
+.background2 {
+  background-color: #BC96E6; }
+
+.section0 {
+  z-index: 99; }
+
+.homenav {
+  width: 90%;
+  text-align: center;
+  position: relative;
+  top: 180%;
+  z-index: 1; }
+
+.sidenav ul {
+  position: absolute;
+  right: 5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+  list-style: none;
+  color: none;
+  font-size: 1.5rem; }
+
+@media screen and (min-width: 40em) {
+  .section0 {
+    background-image: url("../pics/QINY7475.png");
+    position: absolute;
+    z-index: 99; } }
+a {
+  color: none;
+  text-decoration: none; }
+
+.notvertical {
+  vertical-align: baseline !important; }
+
+#logo {
+  margin-top: 2rem; }
+
+.homenav {
+  transform: scale(1);
+  transition: all .4s;
+  z-index: 3; }
+
+.homenav:hover {
+  transform: scale(1.2); }
+
+.daily {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 10; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+h2 {
+  margin: 0;
+  padding: 0;
+  color: #ccc;
+  font-size: 3em;
+  overflow: hidden;
+  text-align: center;
+  text-transform: uppercase; }
+
+/*# sourceMappingURL=app.css.map */
