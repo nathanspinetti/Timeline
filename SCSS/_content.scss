@@ -1,14 +1,19 @@
 .background1{
-	background-color:#D8B4E2;
+	background-color:#848AC5;
+}
+.background0{
+	background-color:#E6E8E6;
 }
 
 .background2{
-	background-color:#BC96E6;
+	background-color:#FECE8C;
 }
 
 h2{
 	color:#ffffff !important;
-	transform:translateY(500%);
+	transform:translateY(375%);
+	z-index:0 !important;
+
 }
 
 .spacing{
@@ -17,3 +22,63 @@ h2{
 	transform:translateY(-50%);
 }
 
+#section1{
+	z-index:1;
+	width:100%;
+	background-size:cover;
+	background-image:url("../pics/DSC03763.JPG");
+}
+#section2{
+	z-index:1;
+	width:100%;
+	background-size:cover;
+	background-image:url("../pics/QIYU5619.JPG");
+}
+#section3{
+	z-index:1;
+	width:100%;
+	background-size:cover;
+	background-image:url("../pic/DSC04005.JPG");
+}
+#section4{
+	z-index:1;
+	width:100%;
+	background-size:cover;
+	background-image:url("../pics/ARSB2133.JPG");
+}
+#section5{
+	z-index:1;
+	width:100%;
+	background-size:cover;
+	background-image:url("../pics/palatine2.JPG");
+}
+#section6{
+	z-index:1;
+	width:100%;
+	background-size:cover;
+	background-image:url("../pics/VAHR7190.JPG");
+}
+#section7{
+	z-index:1;
+	width:100%;
+	background-size:cover;
+	background-image:url("../pics/DSC03955.JPG");
+}
+#section8{
+	z-index:1;
+	width:100%;
+	background-size:cover;
+	background-image:url("../pics/QINY7475.JPG");
+}
+#section9{
+	z-index:1;
+	width:100%;
+	background-size:cover;
+	background-image:url("../pics/RMOV2600v2.JPG");
+}
+#section10{
+	z-index:1;
+	width:100%;
+	background-size:cover;
+	background-image:url("../pics/DSC03895.JPG");
+}
