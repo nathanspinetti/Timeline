@@ -1,24 +1,41 @@
 .section0{
-	z-index:99;
+	z-index:90;
 }
 
 .homenav{
-	width:90%;
-	text-align:center;
+	transform:none;
 	position:relative;
-	top:180%;
-	z-index:1;
+	width:50%;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:120px;
 }
 
-.sidenav ul{
-	position:absolute;
-	right:5rem;
-	top:50%;
-	transform:translateY(-50%);
+.sidenav{
+	ul{
 	z-index:100;
+	position:absolute;
+	right:1%;
+	top:90%;
+	transform:translateY(-50%);
 	list-style:none;
-	color:none;
+	color:white;
 	font-size:1.5rem;
+	}
+	a{
+		color:white;
+	}
+	.active{
+		font-weight:800;
+
+	}
+}
+.section1{
+	z-index:50;
+}
+
+.middle{
+	vertical-align:middle;
 }
 
 @media screen and (min-width: 40em){
@@ -27,6 +44,32 @@
 	position:absolute;
 	z-index:99;
 }
+.homenav{
+	transform:scale(1.0);
+	transition:all .4s;
+	z-index:3;
+	width:90%;
+	text-align:center;
+	position:relative;
+	top:180%;
+	margin-left:0px;
+}
+.homenav:hover{
+	transform: scale(1.2);
+	}
+#logo{
+	margin-top:2rem;
+}
+
+header{
+	visibility:visible !important;
+	width:100% !important;
+}
+.slide{
+	padding-left:0rem;
+	padding-right:0rem;
+}
+
 
 	}
 a{
@@ -34,19 +77,16 @@ a{
 	text-decoration:none;
 }
 
-.notvertical{
-	vertical-align:baseline !important;
+.section0{
+	.fp-tableCell{
+		vertical-align:baseline !important;
+	}
+	
 }
 
-#logo{
-	margin-top:2rem;
-}
 
-.homenav{
-	transform:scale(1.0);
-	transition:all .4s;
-	z-index:3;
-}
+
+
 
 // .homenav a:hover h2{
 // 	transform: scale(1.2) translate(-50%, -50%);
@@ -56,9 +96,7 @@ a{
 // 	transform: scale(1.2);
 
 // 	}
-.homenav:hover{
-	transform: scale(1.2);
-	}
+
 
 .daily{
 	position:absolute;
@@ -84,4 +122,37 @@ h2 {
     text-transform: uppercase;
 }
 
+h5 {
+    margin: 0;
+    padding: 0;
+    color: #ccc;
+    font-size: 3em;
+    overflow: hidden;
+    text-align: center;
+    text-transform: uppercase;
+}
 
+
+header{
+	visibility:hidden;
+	padding:0;
+	width:0%;
+}
+
+.arrow {
+	width:20%;	
+	border-radius: 40px;
+  background-color:white;
+  border: 2px solid white;
+}
+.arrow a{
+	color:white !important;
+}
+
+.arrow:hover {
+	background:rgba(178,178,178,1.0);
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 		
+}
