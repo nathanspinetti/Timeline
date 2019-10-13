@@ -1,6 +1,9 @@
 .section0{
-	z-index:90;
+	z-index:-90;
 }
+// .section1{
+// 	z-index:91 !important;
+// }
 
 .homenav{
 	transform:none;
@@ -39,10 +42,10 @@
 }
 
 @media screen and (min-width: 40em){
-		.section0{
-	background-image:url("../pics/QINY7475.png");
+		.section0bg{
+	// background-image:url("../pics/QINY7475.png");
 	position:absolute;
-	z-index:99;
+	z-index:-10;
 }
 .homenav{
 	transform:scale(1.0);

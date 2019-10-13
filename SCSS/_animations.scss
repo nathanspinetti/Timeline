@@ -78,4 +78,54 @@ h5.effect-1 {
     }
   }
 }
+
+.circle {
+  position:absolute;
+  height: 400px;
+  width: 400px;
+  left:5%;
+  bottom:0%;
+  background-color:rgba(132,138,197,.3);
+  border-radius: 50%;
+  animation-name: purpleball;
+    animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 300s;
+  animation-delay: .5s;
+  animation-fill-mode: forwards;
+  transform:translateX(100%);
+    z-index:-20 !important;
+}
+
+.circle2{
+  position:absolute;
+  height: 350px;
+  width: 350px;
+  left:5%;
+  bottom:30%;
+  background-color:rgba(254,206,140,.3);
+  border-radius: 50%;
+  animation-name: yellowball;
+    animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 300s;
+  animation-delay: .5s;
+  animation-fill-mode: forwards;
+  transform:translateX(0%);
+  z-index:-20 !important;
+}
+
+@keyframes purpleball{
+  0% {transform:translateX(110%); }
+  50%{transform:translateX(0%);}
+  100% {transform:translateX(110%);}
+}
+@keyframes yellowball{
+  0% {transform:translateX(0%); }
+  50%{transform:translateX(100%);}
+  100%{transform:translateX(0%);}
+}
+
+
+
 }
